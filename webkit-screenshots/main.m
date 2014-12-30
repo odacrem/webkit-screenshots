@@ -1,11 +1,3 @@
-//
-//  main.m
-//  screenshots
-//
-//  Created by Pablo Mercado on 12/24/14.
-//  Copyright (c) 2014 Pablo Mercado. All rights reserved.
-//
-
 #import <Foundation/Foundation.h>
 #import "Screenshot.h"
 #if DEBUG == 0

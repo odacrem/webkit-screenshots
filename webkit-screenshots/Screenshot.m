@@ -131,7 +131,7 @@
   if (completedBlock != nil) {
     completedBlock(bitmapdata);
   } else {
-    [[NSApplication sharedApplication] terminate:nil];
+    exit(0);
   }
 }
 - (void) timeout {

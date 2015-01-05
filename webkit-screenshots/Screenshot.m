@@ -175,7 +175,6 @@
 
 - (void)webView:(WebView *)sender didFailProvisionalLoadWithError:(NSError *)error forFrame:(WebFrame *)frame {
   NSLog(@"didFailProvisionalLoadWithError: %@ %@", error, [error userInfo]);
-  exit(1);
 }
 
 - (void)webView:(WebView*) sender didFailLoadWithError:(NSError *)error forFrame:(WebFrame *)frame {
